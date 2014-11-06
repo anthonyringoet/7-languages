@@ -4,6 +4,8 @@ Vehicle description := "Some vehicle you got there"
 Vehicle slotNames print
 Vehicle description print
 "\n" print
+Vehicle type print
+"\n" print
 
 // no description slot on Car type
 // but Io forwards it to the Vehicle prototype
@@ -13,6 +15,8 @@ Car := Vehicle clone
 Car slotNames print
 "\n" print
 Car description print
+"\n" print
+Car type print
 "\n" print
 
 // no type slot here
@@ -24,6 +28,8 @@ ferrari := Car clone
 ferrari slotNames print
 "\n" print
 ferrari description print
+"\n" print
+ferrari type print
 "\n" print
 
 /*
